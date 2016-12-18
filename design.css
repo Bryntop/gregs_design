@@ -1,10 +1,10 @@
 body {
-	max-width: auto;
+	
 }
 
 nav {
-
-  padding-top: 10px;
+	padding-top: 10px;
+  padding-bottom: 10px;
   padding-right: 50px;
   top: 0px;
   text-align: right;
@@ -12,6 +12,7 @@ nav {
   height: 50px;
   background-color: grey;
   width: auto;
+
 }
 
 nav ul {
@@ -33,16 +34,22 @@ nav li {
 nav li::after {
   content: "|";
   margin-left: 5px;
+  margin-right: 5px;
 }
 
 .Glogo {
 	height: 50px;
 	float: left;
 	padding-left: 50px;
-	padding-bottom: 20px;
+	padding-bottom: 5px;
 }
 
+a {
+	float: left;
+}
 
-
+.gregs {
+	margin-bottom: 
+}
 
 
