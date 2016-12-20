@@ -1,26 +1,73 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 	<title> CSS DESIGN | Gregs Project </title>
 
 	<meta name="My Gregs Design" content="This my Design on a gregs list website check it out!">
 
 	<link rel="stylesheet" type="text/css" href="design.css">
 
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
 
 </head>
 <body>
 
 <nav class="navbar"> 
-<img src="Logo.png" class="Glogo">
-<a class="gregs" style="color: white"><h2>regs List</h2></a>
-<ul>
-	<li><a href="www.google.com" class="post">Post</li>
-	<li><a href="www.google.com" class="post">Account</li>
+	<img src="Logo.png" class="Glogo">
+		<a class="gregs" style="color: white"><h2>regs List</h2></a>	
+			<ul>
+				<li><a href="www.google.com" class="post" style="color: yellow">Post</li>
+				<li><a href="www.google.com" class="post" style="color: yellow">Account</li>
 
-</ul>
-	
+			</ul>
+		
 </nav>
 
+<section class="search-section">
+	
+	<form action="#">
+		<label for="search" style="color: grey">Search Jobs</label>
+			<input type="text" id="search" placeholder="Developer, designer, internship..." />
+				<button type="submit" class="search-button">
+					<img src="magnifying-glass.png" class="mag-glass">	
+
+				</button>
+	</form>
+</section>
+
+
+
+<div> 
+	
+<ul class="listings">
+      <li class="listing">
+        <span class="listing-date">June 22</span>
+        <a href="#" class="listing-title">Technical Project Manager</a>
+
+        <span class="listing-location">Midtown East</span>
+      </li>
+      <li class="listing">
+       
+        <a href="#" class="listing-title">Frontend Developer</a>
+         <span class="listing-date">June 21</span>
+        <span class="listing-location">SoHo</span>
+      </li>
+      <li class="listing">
+        <span class="listing-date">June 20</span>
+        <a href="#" class="listing-title">Senior Python Developer / Cofounder</a>
+        <span class="listing-location">Flatiron</span>
+      </li>
+    </ul>
+
+    </div>
+
+
+
+
+
+
 </body>
+
 </html>
