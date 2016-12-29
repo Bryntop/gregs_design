@@ -1,11 +1,11 @@
 body {
-	margin: 0px;
+  margin: 0px;
 
-	  font-family: "Roboto", sans-serif;
-	
-}
+  font-family: "Roboto", sans-serif;
+	}
 
-nav {
+
+.navbar {
 	padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 50px;
@@ -15,30 +15,8 @@ nav {
   height: 50px;
   background-color: grey;
   width: auto;
-
 }
 
-nav ul {
-
-	display: inline-block;
-	list-style: none;
-
-}
-
-nav li {
-	display: inline-block;
-	
-	}
-
-.post {
-	 text-decoration:none;  
-}
-
-nav li::after {
-  content: "|";
-  margin-left: 5px;
-  margin-right: 5px;
-}
 
 .Glogo {
 	height: 50px;
@@ -47,77 +25,92 @@ nav li::after {
 	padding-bottom: 5px;
 }
 
+.top-nav {
+
+  padding-top: 20px;
+
+}
 a {
-	float: left;
+  text-decoration: none;
 }
 
-.gregs {
-	margin-bottom: 
+a:hover {
+  text-decoration: underline;
 }
 
-
-label {
-	display: block;
-	margin-top: 50px;
-	padding-bottom: 10px;
-	padding-left: 10px;
+a::after {
+  content: "|";
+  margin-left: 5px;
+  margin-right: 5px;
 }
-
 
 .search-section {
-margin-bottom: 30px;
-padding-left: 250px;
-margin-top: 150px;
-
+  margin-bottom: 30px;
+  margin-top: 150px;
+ 
+  margin-left: 400px;
 
 }
 
+label {
+  display: block;
+  margin-bottom: 8px;
+}
 
 .search-section input {
-
   font-family: "Roboto", sans-serif;
   font-size: 17px;
   font-weight: 500;
   line-height: 30px;
-  height: 40px;
-  border: 1px solid #DDDDDD;
-  border-radius: 20px;
+  height: 30px;
+  border: 1px solid grey;
+  border-radius: 3px;
   padding: 0 5px 0 8px;
-  width: 350px;
-
+  width: 400px;
 }
 
 .search-section button {
   font-size: 17px;
-  height: 40px;
+  height: 32px;
   background-color: white;
-  border: 1px solid #DDDDDD;
-  border-radius: 15px;
-}
-.search-button {
-  vertical-align: bottom;
-  margin-bottom: 0px;
-  margin-left: 5px;
-
-
-}
-
-.mag-glass {
-
-	height: 100%;
+  border: 1px solid grey;
+  border-radius: 3px;
+  padding-bottom: 5px;
 }
 
 
-div {
+.pages {
+  display: inline-block; 
+  font-size: 0;
+  margin-bottom: 30px;
+  border: 1px solid grey;
+  border-radius: 3px;
+  margin-left: 400px;
+  width: 350px;
+  text-align: center;
 
-	
-	
-	padding-left: 450px;
+
+
+}
+
+.pages-button {
+  font-size: 16px;
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 3px;
+}
+
+.pages-display {
+  font-size: 16px;
+  padding: 0 30px;
+  padding: 8px 25px;
+  border-left: 1px solid #DDDDDD;
+  border-right: 1px solid #DDDDDD;
 }
 
 .listings {
   padding: 0;
-  display: inline-block;
+  margin-left: 400px;
 }
 
 .listing {
@@ -136,8 +129,17 @@ div {
   margin-left: 8px;
   margin-right: 8px;
 }
-.listing-date {
 
-	
+.search-button {
+  vertical-align: bottom;
+}
+
+
+.magnifying-glass-icon {
+  height: 100%;
 
 }
+
+
+
+
